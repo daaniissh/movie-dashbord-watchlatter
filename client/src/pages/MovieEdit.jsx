@@ -159,7 +159,7 @@ const MovieForm = () => {
   return (
     <>
       <Sidebar />
-      <div className="max-w-md ml-[100px] sm:mx-auto mt-10 bg-gray-200 p-4 shadow-2xl border border-gray-300 rounded-md">
+      <div className="max-w-md ml-[100px] sm:mx-auto mt-28 bg-gray-200 p-4 shadow-2xl border border-gray-300 rounded-md">
         <h2 className="text-2xl font-semibold mb-4">Add Movie</h2>
         <form onSubmit={handleSubmit}>
           <div className="mb-4 flex justify-between items-center">

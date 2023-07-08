@@ -71,7 +71,7 @@ const GenreForm = () => {
   return (
     <>
       <Sidebar />
-      <div className="w-full h-screen bg-gray-200 py-8">
+      <div className="w-full h-screen  bg-gray-200 py-8">
         <form onSubmit={handleAddGenre} className="bg-white rounded-lg shadow-lg p-4 max-w-sm mx-auto">
           <div className="flex items-center mb-4">
             <input type="text" placeholder="Enter genre" value={newGenre}

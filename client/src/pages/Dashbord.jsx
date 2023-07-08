@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import MovieCard from '../component/MovieCard';
 import Sidebar from '../component/Sidebar';
 import axios from 'axios';
+import Header from '../component/Header';
 
 const MovieDashboard = () => {
   useEffect(() => {
@@ -15,9 +16,11 @@ const MovieDashboard = () => {
 
   
   return (
+    <>
+    <Header/>
     <div className='flex'>
       <Sidebar />
-      <div className="flex-grow ml-20 bg-primary-200 min-h-screen"> {/* Converted color class */}
+      <div className="flex-grow mt-16 ml-20 bg-primary-200 min-h-screen"> {/* Converted color class */}
         {/* ... */}
         <main className="container mx-auto px-4 py-8">
           <h1 className="text-2xl font-semibold mb-4">Movie Dashboard</h1>
@@ -30,6 +33,7 @@ const MovieDashboard = () => {
               id={item._id}
               imageUrl={item.imageName}
               title={item.title}
+              watchLater={true}
               genre={item.genre}
               rating={item.ratings}
             />
@@ -40,6 +44,7 @@ const MovieDashboard = () => {
         {/* ... */}
       </div>
     </div>
+    </>
   );
 };
 

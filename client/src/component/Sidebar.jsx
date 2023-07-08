@@ -31,9 +31,7 @@ const Sidebar = () => {
       
       </div>
       <div className="mb-10 duration-200 ease-in justify-center rounded-lg items-end h-full flex w-10">
-        <button className="btn btn-primary btn-ghost btn-lg w-full p-2">
-          <HiOutlineLogout/>
-        </button>
+       
       </div>
     </div>
   );
