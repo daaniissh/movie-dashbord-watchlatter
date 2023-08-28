@@ -1,8 +1,10 @@
 # Movie Dashboard Project
-![Screenshot (271)](https://github.com/daaniissh/movie-dashbord-watchlatter/assets/102005928/2be936c0-7f26-4ee7-8ada-e9549951275a)
-![Screenshot (272)](https://github.com/daaniissh/movie-dashbord-watchlatter/assets/102005928/a9b833d6-1b88-4cc3-a1f7-44f8f8976051)
-![Screenshot (273)](https://github.com/daaniissh/movie-dashbord-watchlatter/assets/102005928/7693a803-e0da-4609-8d05-5aa19b4afced)
-![Screenshot (274)](https://github.com/daaniissh/movie-dashbord-watchlatter/assets/102005928/e615981f-c9c7-42da-baec-25ddedd215e9)
+![Screenshot (332)](https://github.com/daaniissh/movie-dashbord-watchlatter/assets/102005928/0ee44c5f-7871-4486-b5d7-721096af08f6)
+![Screenshot (333)](https://github.com/daaniissh/movie-dashbord-watchlatter/assets/102005928/a94b1bd9-dbaa-4003-bed8-d3caaa9dd09b)
+![Screenshot (334)](https://github.com/daaniissh/movie-dashbord-watchlatter/assets/102005928/66a40e0b-22a9-42e3-8a05-7e293cacc2de)
+![Screenshot (335)](https://github.com/daaniissh/movie-dashbord-watchlatter/assets/102005928/c052ac07-ef29-4fef-91a5-71b212e7c870)
+![Screenshot (336)](https://github.com/daaniissh/movie-dashbord-watchlatter/assets/102005928/30ccb626-78ee-4389-a0d0-0e64f4605acd)
+
 
 
 ### Working video
@@ -18,6 +20,7 @@ This project is a Movie Dashboard created using the MERN stack (MongoDB, Express
 **Frontend**
 - React.js
 - Tailwind CSS
+- React-router
 - DaisyUI
 - Axios
 - toastify
@@ -25,7 +28,9 @@ This project is a Movie Dashboard created using the MERN stack (MongoDB, Express
   
 **BackEnd**
 - Node.js
+- mongoDb
 - Express.js
+- nodemailer
 - Cors
 
 ## Pages
